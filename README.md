@@ -1,6 +1,6 @@
 # Reed.co.uk Jobs Feed
 
-Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's #1 job site. Get salary details, employer profiles, external apply URLs, and 28 structured fields per listing. Powered by Reed's official public API — no proxy needed, no blocking.
+Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's #1 job site. Get salary details, employer profiles, external apply URLs, and 28 structured fields per listing. No proxy needed, no blocking.
 
 **[Run on Apify →](https://apify.com/blackfalcondata/reed-jobs-feed)**
 
