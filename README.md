@@ -2,50 +2,31 @@
 
 Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's #1 job site. Get salary details, employer profiles, external apply URLs, and 28 structured fields per listing. No proxy needed, no blocking.
 
-**[Run on Apify →](https://apify.com/blackfalcondata/reed-scraper)**
+**[Reed Scraper on Apify →](https://apify.com/blackfalcondata/reed-scraper)**
 
 ---
 
 ## Key features
 
-🔍 **Smart search with filters**
 
-Search by keyword, location, job type (permanent/contract/temp), work type (full-time/part-time), salary range, graduate roles, and specific employers.
 
-📄 **Detail enrichment**
+**Search with filters** — Search by keyword and location. Filter by job type, work type, posted by, and more.
 
-Fetch full job descriptions, salary period (annual/hourly), contract type, employment type, yearly salary normalization, and external apply URLs.
+**Detail enrichment** — Fetch full job descriptions, salary data for each listing.
 
-🔄 **Incremental mode**
-
-Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
-
-⚡ **Compact output for AI agents**
-
-Core-fields-only mode optimized for MCP and AI agent workflows. Description truncation to control token budgets.
-
-💰 **Structured salary data**
-
-Min/max salary, yearly normalization, currency, and salary period extracted as discrete fields — not just a text string.
+**Incremental mode** — Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
 
 ---
 
 ## Use cases
 
-**Job market intelligence**
-Track hiring trends across industries, locations, and salary bands. Monitor how many new roles appear daily for specific skills or regions.
 
-**Recruitment pipeline automation**
-Feed structured job data into your CRM or ATS. Use incremental mode to only process new listings, reducing API calls and storage.
 
-**Salary benchmarking**
-Compare salary ranges across roles, locations, and employers. Yearly normalization lets you compare hourly, daily, and annual rates on equal footing.
+**Data pipeline automation**
+Integrate with your ETL pipeline to collect structured listings from reed.co.uk on a schedule. Export to CSV, JSON, or directly to your database. Use compact mode to control output size.
 
-**AI and LLM workflows**
-Use compact mode and description truncation to feed data into AI agents, MCP servers, and LLM pipelines without exceeding token budgets.
-
-**Academic research**
-Study labour market dynamics, skill demand, regional employment patterns, and wage distribution with structured, machine-readable data.
+**Market research**
+Monitor listings, track trends, and analyze market dynamics with structured, deduplicated data from reed.co.uk.
 
 ---
 
@@ -119,15 +100,11 @@ Remote/hybrid status is not exposed by Reed's API. Contact details (recruiter em
 
 ## Related products by Black Falcon Data
 
-| Product | Description |
-|:--------|:------------|
-| [StepStone Jobs API](https://github.com/BlackFalconData-org/stepstone-jobs-api) | Job listings from 18 European portals |
-| [Indeed Jobs Feed](https://github.com/BlackFalconData-org/indeed-jobs-feed) | Indeed job listings with salary data |
-| [Glassdoor Jobs Feed](https://github.com/BlackFalconData-org/glassdoor-jobs-feed) | Glassdoor listings with company ratings |
-| [Arbeitsagentur Jobs Feed](https://github.com/BlackFalconData-org/arbeitsagentur-jobs-feed) | Germany's federal job portal (1M+ listings) |
-| [Naukri Jobs Feed](https://github.com/BlackFalconData-org/naukri-jobs-feed) | India's largest job portal |
-| [Willhaben Jobs Feed](https://github.com/BlackFalconData-org/willhaben-jobs-feed) | Austria's largest classifieds — jobs with salary |
-| [DBA Listings Scraper](https://github.com/BlackFalconData-org/dba-listings-scraper) | Denmark's largest classifieds marketplace |
+
+
+- [StepStone Scraper](https://github.com/BlackFalconData-org/stepstone-scraper) — Job listings from 18 European portals
+- [Indeed Job Scraper](https://github.com/BlackFalconData-org/indeed-job-scraper) — Indeed job listings with salary data
+- [Glassdoor Job Scraper](https://github.com/BlackFalconData-org/glassdoor-job-scraper) — Glassdoor listings with company ratings
 
 ---
 
