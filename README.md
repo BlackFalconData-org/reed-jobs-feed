@@ -2,11 +2,12 @@
 
 Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's #1 job site. Get salary details, employer profiles, external apply URLs, and 28 structured fields per listing. No proxy needed, no blocking.
 
-**[Reed Scraper on Apify →](https://apify.com/blackfalcondata/reed-scraper)**
+**[Reed Scraper - UK’s #1 Job Site on Apify →](https://apify.com/blackfalcondata/reed-scraper)**
 
 ---
 
 ## Key features
+
 
 
 
@@ -19,6 +20,7 @@ Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's 
 ---
 
 ## Use cases
+
 
 
 
@@ -99,6 +101,7 @@ Remote/hybrid status is not exposed by Reed's API. Contact details (recruiter em
 ---
 
 ## Related products by Black Falcon Data
+
 
 
 
