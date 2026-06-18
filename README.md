@@ -2,7 +2,22 @@
 
 Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's #1 job site. Get salary details, employer profiles, external apply URLs, and 28 structured fields per listing. No proxy needed, no blocking.
 
-**[Reed Scraper - UK’s #1 Job Site on Apify →](https://apify.com/blackfalcondata/reed-jobs-feed?fpr=1h3gvi)**
+**[Reed Jobs Feed on Apify →](https://apify.com/blackfalcondata/reed-jobs-feed?fpr=1h3gvi)**
+
+
+## 🚀 How to use this actor
+
+> ### 💚 $5 free Apify credits — every month
+> No credit card required. No commitment. Cancel anytime.
+
+### 👉 [Sign up free on Apify →](https://console.apify.com/sign-up?fpr=1h3gvi)
+
+1. **Click sign up** — pick GitHub, Google, or email; takes ~30 seconds
+2. **Open this actor** — input is pre-filled with a working example
+3. **Click Start** — export results as JSON, CSV, or Excel
+
+Your **$5 monthly platform credit** is enough to run this actor right away — and again every month — scraping typically several hundred to several thousand results per run, depending on your input.
+
 
 ---
 
@@ -13,23 +28,10 @@ Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's 
 
 
 
-**Search with filters** — Search by keyword and location. Filter by job type, work type, posted by, and more.
-
-**Detail enrichment** — Fetch full job descriptions, salary data for each listing.
-
-**Incremental mode** — Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
-
-**Change classification** — Track cross-run repost detection across runs. Build audit trails of how listings evolve over time.
-
-**Compact output** — Emit core fields only (AI-agent / MCP-friendly). Keeps response size small for LLM workflows.
-
-**Description truncation** — Cap description length per listing to control output size and cost.
-
-**Result cap** — Stop after N listings (up to 5.000). Set to 0 for the full catalog.
 
 **Export anywhere** — Download as JSON, CSV, or Excel. Stream via Apify API, webhooks, or integrations with Make, Zapier, Airbyte, Keboola.
 
-**Structured data** — Every listing returns the same schema with consistent field naming. All fields always present — `null` when unavailable, never omitted.
+**Structured data** — Clean JSON output with consistent field naming. All fields always present — `null` when unavailable, never omitted.
 
 ---
 
@@ -40,17 +42,12 @@ Extract structured job listings from [reed.co.uk](https://reed.co.uk), the UK's 
 
 
 
+
 **Data pipeline automation**
-Integrate with your ETL pipeline to collect structured listings from reed.co.uk on a schedule. Export to CSV, JSON, or directly to your database. Use compact mode to control output size.
+Integrate with your ETL pipeline to collect structured listings from the source on a schedule. Export to CSV, JSON, or directly to your database.
 
 **Market research**
-Monitor listings, track trends, and analyze market dynamics with structured, deduplicated data from reed.co.uk.
-
-**Change monitoring**
-Run daily or hourly in incremental mode to capture only new, updated, or expired listings. Perfect for price-tracking, churn analysis, and alerting pipelines.
-
-**Compensation benchmarking**
-Aggregate salary ranges across roles, industries, and locations on reed.co.uk to inform pricing decisions, hiring plans, or candidate negotiations.
+Monitor listings, track trends, and analyze market dynamics with structured, deduplicated data from the source.
 
 **AI / LLM training data**
 Structured JSON per listing is ready for RAG pipelines, embeddings, and agent workflows. Compact mode trims tokens for LLM context windows.
@@ -205,12 +202,13 @@ See the [actor on Apify](https://apify.com/blackfalcondata/reed-scraper?fpr=1h3g
 
 
 
+
 - [StepStone Scraper](https://apify.com/blackfalcondata/stepstone-scraper?fpr=1h3gvi) — Job listings from 18 European portals
 - [Indeed Job Scraper](https://apify.com/blackfalcondata/indeed-job-scraper?fpr=1h3gvi) — Indeed job listings with salary data
+- [LinkedIn Jobs Scraper](https://apify.com/blackfalcondata/linkedin-jobs-scraper?fpr=1h3gvi) — World's largest professional network — global job listings, no login required
 - [Glassdoor Job Scraper](https://apify.com/blackfalcondata/glassdoor-job-scraper?fpr=1h3gvi) — Glassdoor listings with company ratings
 - [Arbeitsagentur Scraper](https://apify.com/blackfalcondata/arbeitsagentur-scraper?fpr=1h3gvi) — Germany's official job portal (1M+ listings)
 - [SEEK Scraper](https://apify.com/blackfalcondata/seek-scraper?fpr=1h3gvi) — Australia & NZ's largest job board
-- [Naukri Scraper](https://apify.com/blackfalcondata/naukri-scraper?fpr=1h3gvi) — India's largest job portal
 
 ---
 
